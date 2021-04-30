@@ -58,6 +58,9 @@ class loginSauce:
         driver.find_element_by_css_selector("a.btn_action.cart_button").click()
         # driver.implicitly_wait()
 
+        def login1(self):
+            print("This is test")
+
 
 abc = loginSauce()
 abc.login()
